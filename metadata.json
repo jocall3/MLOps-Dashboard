@@ -1,0 +1,5 @@
+{
+  "name": "MLOps Dashboard",
+  "description": "A comprehensive predictive models hub featuring real-time monitoring, drift detection, explainability (XAI), and Gemini-powered insights for machine learning operations.",
+  "requestFramePermissions": []
+}
