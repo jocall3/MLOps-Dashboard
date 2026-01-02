@@ -3,6 +3,7 @@ import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, Ba
 import { GoogleGenAI } from '@google/genai';
 import { v4 as uuidv4 } from 'uuid';
 import Card from './Card';
+import DeepAnalysisTool from './DeepAnalysisTool';
 import { DataContext, ExtendedDataContextType } from '../context/DataContext';
 import { 
     MLModel, MLModelExtended, MLAlertExtended, ModelDeploymentStatus, ModelMetric, HPOCTrial, 
@@ -844,6 +845,9 @@ const PredictiveModelsView: React.FC = () => {
                     <div className="h-40 flex items-center justify-center text-gray-500 border-2 border-dashed border-gray-700 rounded-lg">Select at least one model for comparison.</div>
                 )}
             </Card>
+
+            {/* Deep File Analysis Tool - New Feature */}
+            <DeepAnalysisTool />
 
             {/* Deployment Section (Simplified for brevity in generated code) */}
             {selectedModel && (
