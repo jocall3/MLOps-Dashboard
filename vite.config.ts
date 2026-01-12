@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
     return {
       server: {
         port: 3000,
-        host: '0.0.0.0',
+        host: 'ml-ops-dashboard-2n1vcwa8b-jocall3s-projects.vercel.app',
       },
       plugins: [react()],
       define: {
